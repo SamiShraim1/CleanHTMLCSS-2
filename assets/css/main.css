@@ -311,11 +311,11 @@ a {
     }
 
     .hero .Paragraphs h2 {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .hero .Paragraphs h3 {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .hero .Sponsor .svg {
@@ -330,7 +330,7 @@ a {
     }
 
     .hero .Paragraphs h1 {
-        font-size: 12px;
+        font-size: 13px;
         gap: 5px;
     }
 
