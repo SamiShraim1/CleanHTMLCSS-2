@@ -1208,8 +1208,11 @@ a {
     }
 
     .Pricing-style {
-        gap: 25px;
         padding: 30px 16px 20px 16px;
+    }
+    
+    .Pricing-style-top p:last-of-type {
+        margin-bottom: 25px;
     }
 
     .Pricing-style-top {
