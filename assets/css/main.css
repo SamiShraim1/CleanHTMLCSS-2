@@ -1059,7 +1059,7 @@ a {
     flex-wrap: wrap;
     background: #fff;
     border-radius: 12px;
-    padding: 80px;
+    padding: 50px;
 }
 
 .Pricing-style {
@@ -1069,7 +1069,7 @@ a {
     border-radius: 12px;
     border: 1px solid #f1f1f3;
     background: #fcfcfd;
-    padding: 50px 30px 30px 30px;
+    padding: 30px 16px 20px 16px;
 }
 
 .Pricing-style-top {
@@ -1115,14 +1115,14 @@ a {
 .Pricing .Pricing-sheet {
     width: 100%;
     display: flex;
-    padding: 40px;
+    padding: 25px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     border-radius: 14px 14px 0px 0px;
     border: 1px solid #f1f1f3;
-    background: #fff;
-    max-height: max-content;
+    padding-top: 20px;
+    background-color: #fff;
 }
 
 .Pricing .Pricing-sheet .p {
@@ -1136,7 +1136,7 @@ a {
 .pricing-card {
     width: 100%;
     display: flex;
-    padding: 0px 30px;
+    padding: 0px 25px;
     flex-direction: column;
     gap: 20px;
 }
@@ -1144,7 +1144,7 @@ a {
 .Pricing-card-row {
     width: 100%;
     display: flex;
-    padding: 14px;
+    padding: 7px;
     align-items: center;
     gap: 12px;
     border-radius: 8px;
@@ -1160,7 +1160,7 @@ a {
 
 .Pricing-card-row .svg-x {
     box-sizing: content-box;
-    padding: 6px;
+    padding: 5.5px;
     border-radius: 6px;
     border: 1px solid #f1f1f3;
 }
@@ -1168,17 +1168,13 @@ a {
 .Pricing-card-row p {
     width: 100%;
     color: #4c4c4d;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 150%;
 }
 
 .Pricing-style-bottom {
     display: flex;
     flex-direction: column;
-}
-
-.Pricing .a {
-    margin-top: auto;
 }
 
 .Pricing a {
@@ -1193,6 +1189,14 @@ a {
     font-size: 18px;
     font-weight: 600;
     line-height: 150%;
+}
+
+@media screen and (max-width: 1428px) {
+    .Monthly-Yearly {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1210,7 +1214,7 @@ a {
     .Pricing-style {
         padding: 30px 16px 20px 16px;
     }
-    
+
     .Pricing-style-top p:last-of-type {
         margin-bottom: 25px;
     }
